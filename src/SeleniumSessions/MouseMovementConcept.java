@@ -12,7 +12,7 @@ public class MouseMovementConcept {
 		System.setProperty("webdriver.chrome.driver", "F:\\seleniumDrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.manage().window().maximize();//to maximize the winndow
+		driver.manage().window().maximize();//to maximize the window
 		driver.manage().deleteAllCookies();//to delete all the cookies
 		
 		//Mouse hover and click its sub element concept
@@ -22,7 +22,7 @@ public class MouseMovementConcept {
 		
 		//.build().perform(); -- is a method which will perform the action
 		action.moveToElement(driver.findElement(By.id("highlight-addons"))).build().perform();
-		Thread.sleep(3000);	
+		Thread.sleep(3000);	//static wait
 		driver.findElement(By.linkText("Priority Check-in")).click();
 	}
 
