@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="F:/seleniumDrivers/SeleniumJava/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="F:/seleniumDrivers/SeleniumJava/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="F:/seleniumDrivers/SeleniumJava/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="F:/seleniumDrivers/htmlunit-driver-2.33.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

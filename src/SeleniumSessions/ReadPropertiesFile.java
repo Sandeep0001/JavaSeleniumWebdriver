@@ -16,7 +16,7 @@ public class ReadPropertiesFile {
 	public static void main(String[] args) throws IOException {
 
 		Properties prop = new Properties();//Firstly we create the object to read the properties class
-		//we create oe more object to read which file
+		//we create one more object to read which file
 		FileInputStream ip = new FileInputStream("C:\\Users\\user\\Desktop\\JavaTraining\\JavaSeleniumWebdriver\\src\\SeleniumSessions\\config.properties");
 		
 		prop.load(ip);
