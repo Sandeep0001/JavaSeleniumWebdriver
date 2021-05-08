@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Softvision Google Form Test]">
+  <test name="Google Form Test Cases(failed)">
+    <classes>
+      <class name="com.google.qa.testcases.GoogleFormPageTest">
+        <methods>
+          <include name="createGoogleFormTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.google.qa.testcases.GoogleFormPageTest -->
+    </classes>
+  </test> <!-- Google Form Test Cases(failed) -->
+</suite> <!-- Failed suite [Softvision Google Form Test] -->

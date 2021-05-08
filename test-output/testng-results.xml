@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99887" started-at="2018-12-13T13:11:25Z" finished-at="2018-12-13T13:13:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99887" started-at="2018-12-13T13:11:25Z" finished-at="2018-12-13T13:13:04Z">
+      <class name="com.google.qa.testcases.GoogleFormPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.qa.testcases.GoogleFormPageTest@685cb137]" name="setUp" is-config="true" duration-ms="81796" started-at="2018-12-13T18:41:25Z" finished-at="2018-12-13T18:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createGoogleFormTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.google.qa.testcases.GoogleFormPageTest@685cb137]" name="createGoogleFormTest" duration-ms="8121" started-at="2018-12-13T18:42:47Z" data-provider="getGoogleTestData" finished-at="2018-12-13T18:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[What is final in Java?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Block]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Method]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGoogleFormTest -->
+        <test-method status="PASS" signature="createGoogleFormTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.google.qa.testcases.GoogleFormPageTest@685cb137]" name="createGoogleFormTest" duration-ms="9313" started-at="2018-12-13T18:42:55Z" data-provider="getGoogleTestData" finished-at="2018-12-13T18:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Who is the captain for Indian Cricket team?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pradeep]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Usha]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGoogleFormTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.qa.testcases.GoogleFormPageTest@685cb137]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T18:43:04Z" finished-at="2018-12-13T18:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.qa.testcases.GoogleFormPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
