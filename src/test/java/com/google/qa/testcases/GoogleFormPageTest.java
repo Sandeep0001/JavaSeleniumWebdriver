@@ -23,8 +23,7 @@ public class GoogleFormPageTest extends TestBase{
 	public GoogleFormPageTest() {
 		super();
 	}
-	
-	
+
 	@BeforeClass
 	public void setUp() throws InterruptedException{
 
@@ -48,8 +47,7 @@ public class GoogleFormPageTest extends TestBase{
 	public void createGoogleFormTest(String question, String option1, String option2, String option3, String option4) throws InterruptedException {
 		googleFormPage.createGoogleForm(question, option1, option2, option3, option4);
 	}
-	
-	
+
 	@AfterClass
 	public void tearDown(){
 		driver.quit();

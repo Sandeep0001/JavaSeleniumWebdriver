@@ -10,9 +10,6 @@ import com.google.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase{
 
-
-
-
 	LoginPage loginPage;
 	GoogleFormPage googleFormPage;
 	

@@ -34,7 +34,6 @@ public class GoogleFormPage extends TestBase {
 	
 	@FindBy(xpath = "//div[contains(@aria-label,'Duplicate item')]")
 	WebElement nxtQN;
-
 	
 	//Initializing objects
 	public GoogleFormPage(){
@@ -55,8 +54,5 @@ public class GoogleFormPage extends TestBase {
 		Thread.sleep(1000);
 		nxtQN.click();
 		Thread.sleep(2000);
-
 	}
-	
-	
 }

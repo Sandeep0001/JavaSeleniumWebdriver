@@ -35,7 +35,6 @@ public class LoginPage extends TestBase{
 			PageFactory.initElements(driver, this);
 		}
 
-	
 	// Actions
 	public GoogleFormPage login(String un, String pwd) throws InterruptedException {
 		email.sendKeys(un);
@@ -54,5 +53,4 @@ public class LoginPage extends TestBase{
 		addOpt.click();
 		return new GoogleFormPage();
 	}
-
 }

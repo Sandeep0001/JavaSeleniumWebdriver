@@ -29,27 +29,15 @@ public class TestUtil extends TestBase{
 		FileInputStream file = null;
 
 		try {
-
 			file = new FileInputStream(TESTDATA_SHEET_PATH);
-
 		} catch (FileNotFoundException e) {
-
 			e.printStackTrace();
-
 		}
 
 		try {
-
 			book = WorkbookFactory.create(file);
-
-		} catch (InvalidFormatException e) {
-
+		} catch (Exception e) {
 			e.printStackTrace();
-
-		} catch (IOException e) {
-
-			e.printStackTrace();
-
 		}
 
 		sheet = book.getSheet(sheetName);
