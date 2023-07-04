@@ -4,6 +4,7 @@ import com.google.qa.base.TestBase;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public class PrintMinPriceOfTrainTicket extends TestBase {
     @SneakyThrows
-    @org.testng.annotations.Test
+    @Test
     public void webTableCheckBoxTest() {
         initialization();
         driver.get("https://www.makemytrip.com/");
