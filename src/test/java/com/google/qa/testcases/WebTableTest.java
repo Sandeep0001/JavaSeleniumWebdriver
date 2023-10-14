@@ -13,16 +13,18 @@ public class WebTableTest extends TestBase {
 
     @SneakyThrows
     @Test
-    public void webTableCheckBoxTest(){
+    public void webTableCheckBoxTest() {
         initialization();
         driver.get("https://cosmocode.io/automation-practice-webtable/");
         Thread.sleep(5000);
         List<WebElement> englishSpeakingCountriesList = driver.findElements(By.xpath("//table[@id='countries']/tbody/tr/td[contains(text(), 'English')]/preceding-sibling::td/input[@class='hasVisited']"));
 
-        for (WebElement englishSpeakingCountry : englishSpeakingCountriesList){
+        for (WebElement englishSpeakingCountry : englishSpeakingCountriesList) {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(234,694)", "");
             englishSpeakingCountry.click();
         }
+
+        driver.quit();
     }
 }
