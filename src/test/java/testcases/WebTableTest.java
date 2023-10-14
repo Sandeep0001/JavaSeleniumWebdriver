@@ -1,6 +1,6 @@
 package testcases;
 
-import com.google.qa.base.SeleniumBase;
+import base.SeleniumBase;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

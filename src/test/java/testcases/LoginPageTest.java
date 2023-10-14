@@ -1,8 +1,8 @@
 package testcases;
 
-import com.google.qa.base.SeleniumBase;
-import com.google.qa.pages.GoogleFormPage;
-import com.google.qa.pages.LoginPage;
+import base.SeleniumBase;
+import pages.GoogleFormPage;
+import pages.LoginPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

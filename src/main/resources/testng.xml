@@ -2,17 +2,10 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-
-<suite name = "Softvision Google Form Test">
-
-	<test name = "Google Form Test Cases">
-
-		<classes>
-
-			<class name="com.google.qa.testcases.GoogleFormPageTest" />
-
-		</classes>
-
-	</test>
-
+<suite name="Softvision Google Form Test">
+    <test name="Google Form Test Cases">
+        <classes>
+            <class name="testcases.GoogleFormPageTest"/>
+        </classes>
+    </test>
 </suite>
