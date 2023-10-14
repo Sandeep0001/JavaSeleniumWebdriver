@@ -1,6 +1,6 @@
-package com.google.qa.testcases;
+package testcases;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import com.google.qa.pages.GoogleFormPage;
 import com.google.qa.pages.LoginPage;
 import com.google.qa.util.TestUtil;
@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class GoogleFormPageTest extends TestBase {
+public class GoogleFormPageTest extends SeleniumBase {
 
     GoogleFormPage googleFormPage;
     LoginPage loginPage;

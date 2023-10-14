@@ -1,6 +1,6 @@
-package com.google.qa.testcases;
+package testcases;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class WebTableTest extends TestBase {
+public class WebTableTest extends SeleniumBase {
 
     @SneakyThrows
     @Test

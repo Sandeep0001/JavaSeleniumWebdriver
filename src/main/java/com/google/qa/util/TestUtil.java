@@ -1,6 +1,6 @@
 package com.google.qa.util;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class TestUtil extends TestBase {
+public class TestUtil extends SeleniumBase {
 
     public static long PAGE_LOAD_TIMEOUT = 60;
     public static long IMPLICIT_WAIT = 60;

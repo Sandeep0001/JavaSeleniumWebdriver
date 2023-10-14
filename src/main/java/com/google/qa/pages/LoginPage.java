@@ -1,12 +1,12 @@
 package com.google.qa.pages;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends TestBase {
+public class LoginPage extends SeleniumBase {
 
     @FindBy(xpath = "//input[@type='email']")
     WebElement email;

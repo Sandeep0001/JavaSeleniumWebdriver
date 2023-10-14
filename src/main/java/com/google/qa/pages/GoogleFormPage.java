@@ -1,12 +1,12 @@
 package com.google.qa.pages;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class GoogleFormPage extends TestBase {
+public class GoogleFormPage extends SeleniumBase {
 
     //Page Factory
     @FindBy(xpath = "//textarea[contains(@aria-label, 'Question title')]")
@@ -17,7 +17,6 @@ public class GoogleFormPage extends TestBase {
 
     @FindBy(xpath = "//input[contains(@value, 'Option 1')]")
     WebElement op1;
-
 
     @FindBy(xpath = "//input[contains(@aria-label, 'Add option')]")
     WebElement addOpt;

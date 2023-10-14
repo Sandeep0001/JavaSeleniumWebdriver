@@ -1,6 +1,6 @@
-package com.google.qa.testcases;
+package testcases;
 
-import com.google.qa.base.TestBase;
+import com.google.qa.base.SeleniumBase;
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class PrintMinPriceOfTrainTicket extends TestBase {
+public class PrintMinimumPriceOfTrainTicket extends SeleniumBase {
     @SneakyThrows
     @Test
     public void webTableCheckBoxTest() {
