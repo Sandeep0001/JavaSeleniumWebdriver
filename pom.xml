@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>GoogleFormTest</groupId>
-    <artifactId>SoftvivionGoogleForm</artifactId>
+    <artifactId>JavaSelenium</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SoftvivionGoogleForm</name>
+    <name>SoftvisionGoogleForm</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>5.2.4</version>
+            <version>5.2.5</version>
         </dependency>
 
         <dependency>
