@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import seleniumwithdesignpatterns.singleton.WebDriverManager;
 
-public class AppTestSingleton {
+public class AppSingletonPatternTest {
     private WebDriver driver;
 
     @BeforeClass

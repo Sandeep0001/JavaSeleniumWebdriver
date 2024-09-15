@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import seleniumwithdesignpatterns.factorypattern.DriverFactory;
 
-public class LoginPageTestFactory {
+public class LoginPageFactoryPatternTest {
 
     WebDriver driver;
 
